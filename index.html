@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="calcBody">
-        <div class="display"><p class="display-content">This is the Display</p></div>
+        <div class="display"><p id="display-content">0</p></div>
         <div class="bottomHalf">
             <div class="numberBody">
                 <div class="row">
@@ -30,11 +30,12 @@
                 </div>
                 <div class="row">
                     <div class="cell"><button class="number">0</button></div>
-                    <div class="cell"><button class="operator">.</button></div>
+                    <div class="cell"><button class="number">.</button></div>
                     <div class="cell"><button class="operator">+</button></div>
                 </div>
             </div>
             <div class="operatorBody">
+                    <div class="cell"><button class="operator", id="clear">C</button></div>
                     <div class="cell"><button class="operator">/</button></div>
                     <div class="cell"><button class="operator">x</button></div>
                     <div class="cell"><button class="operator">-</button></div>
