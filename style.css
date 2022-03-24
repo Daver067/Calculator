@@ -65,8 +65,8 @@
 }
 
 button{
-    height:60px;
-    width: 60px;
+    height:75px;
+    width: 75px;
     font-size: x-large;
     border-radius: 10px;
 }
@@ -76,6 +76,9 @@ button{
 }
 .operator {
     background-color: antiquewhite;
+}
+#clear{
+    background-color: rgba(255, 0, 0, 0.548);
 }
 .operatorBody button {
     width: 75px ;    
