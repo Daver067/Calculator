@@ -180,26 +180,3 @@ function calculate(){
     }
     answer = answer.toString();
 }
-
-
-
-
-
-
-
-
-
-
-
-const ShOwVaLuEs = document.getElementById('showValues'); // just testing quicker
-ShOwVaLuEs.addEventListener('click', () => showValues());
-function showValues() { //This is just for troubleshooting
-    console.log('valueEntered = '+valueEntered);
-    console.log('operatorType = '+operatorType);
-    console.log('firstValue = '+firstValue);
-    console.log('secondValue = '+secondValue);
-    console.log('memoryValue = '+memoryValue);
-    console.log('answer = '+answer);
-    console.log('answer = '+answer);
-    console.log('')
-}
