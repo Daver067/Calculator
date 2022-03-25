@@ -70,14 +70,17 @@ button{
     font-size: x-large;
     border-radius: 10px;
 }
-.equals {
+#equals {
     height: 100px;
-    width: 65px;
+    width: 75px;
+    background-color: olivedrab;
 }
-.operator {
+.operator, 
+#delete, 
+#memory {
     background-color: antiquewhite;
 }
-#clear{
+#clear {
     background-color: rgba(255, 0, 0, 0.548);
 }
 .operatorBody button {
